@@ -1,9 +1,18 @@
 import React from "react";
 import './mostPopularCard.css'
+import { Link, useNavigate } from "react-router-dom";
 
 const MostPopularCard = ({key , game}) => {
+  const navigate = useNavigate();
+
+  const navToDetailPage = (event) => {
+    event.preventDefault();
+    const curGameId = game.gameId;
+    navigate("/Details?gameId="+curGameId); 
+  };
+
   return (
-    <div className="col-lg-3 col-sm-6">
+    <div className="col-lg-3 col-sm-6" onClick={navToDetailPage}>
       <div className="item">
         <img src={game.featureImage} alt="" />
         <h4 style={{ color: 'white' }}>
