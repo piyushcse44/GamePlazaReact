@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/images/logo.png";
 import profileheader from "../../assets/images/profile-header.jpg";
 
+
 const NavBar = () => {
-  const handleKeyPress = (event) => {
-    if (event.key === "Enter") {
-      // Handle search functionality here
-      console.log("Search:", event.target.value);
+  let curInput = "";
+  const searchFunction = (event) => {
+    event.preventDefault(); 
+    curInput = event.target.searchKeyword.value;
+    if(curInput.trim().length>0){
+      console.log(curInput)
+      
     }
+   
   };
 
   return (
@@ -21,17 +26,16 @@ const NavBar = () => {
                 <img src={logo} alt="" />
               </a>
               {/* ***** Logo End ***** */}
-              {/* ***** Search End ***** */}
+              {/* ***** Search Start ***** */}
               <div className="search-input">
-                <form id="search" action="#">
+                <form id="search" onSubmit={searchFunction}>
                   <input
                     type="text"
                     placeholder="Type Something"
                     id="searchText"
                     name="searchKeyword"
-                    onkeypress="handle"
                   />
-                  <i className="fa fa-search" />
+                 
                 </form>
               </div>
               {/* ***** Search End ***** */}

@@ -7,12 +7,14 @@ import { GetRequest } from "../../api/FetchRequest.js";
 
 const GameStore = () => {
   const [gameList, setGameList] = useState([]);
-  const [currentPageNumber,setCurrentPageNumber] = useState(1)
-  const [pageSize,setPageSize] = useState(1)
+  const [currentPageNumber,setCurrentPageNumber] = useState( parseInt(localStorage.getItem("currentPageNumber")) || 1)
+  const [pageSize,setPageSize] = useState(16)
   const [totalPages,setTotalPages] = useState(0)
   const endPoint = "/api/game_plaza/game_list?pageSize="+pageSize+"&pageNumber="+currentPageNumber;
 
+
   useEffect(() => {
+    localStorage.setItem("currentPageNumber", parseInt(currentPageNumber));
     GetRequest((err, res) => { 
       if (err) {
         setError(err.response.data.message);

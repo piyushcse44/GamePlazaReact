@@ -11,34 +11,23 @@ const MostPopular = ({
   setCurrentPageNumber,
   totalPages,
 }) => {
-  let paginationButtons = document.querySelectorAll(".paginationButton");
 
- 
-  paginationButtons.forEach((button) => {
-    button.addEventListener("click", (event) => {
-      var pageNum = button.innerText;
-      if (pageNum === "..." || pageNum === currentPage) {
-        return;
-      } else {
-       console.log("prev"+currentPageNumber+" "+typeof(currentPageNumber))
-       console.log("pageNum"+" "+pageNum)
-        setCurrentPageNumber(parseInt(pageNum));
-        console.log("post"+currentPageNumber+" "+typeof(currentPageNumber))
-        paginationButtons.forEach((btn) => {
-          const anchorTag = btn.querySelector("a");
-          if (anchorTag) {
-            anchorTag.style.backgroundColor = "#e75e8d";
-          }
-        });
-        const anchorTag = button.querySelector("a");
-        if (anchorTag) {
-          anchorTag.style.backgroundColor = "#fff";
-        }
+let paginationButtons = document.querySelectorAll('.paginationButton a');
 
-      
-      }
-    });
-  });
+let currentPageNum = parseInt(currentPageNumber);
+
+paginationButtons.forEach(button => {
+
+  let pageNum = parseInt(button.innerText);
+
+  if (pageNum === currentPageNum) {
+    button.style.backgroundColor = "white";
+  } else {
+    button.style.backgroundColor = "#e75e8d";
+  }
+});
+
+
 
   return (
     <div className="most-popular">
@@ -86,7 +75,11 @@ const MostPopular = ({
                       {currentPageNumber >= 3 && totalPages > 5 ? (
                         <>
                           <div className="main-button col-lg-1 paginationButton">
-                            <a>1</a>
+                            <a 
+                             onClick={() =>
+                              setCurrentPageNumber(1)
+                            }
+                            >1</a>
                           </div>
                           <div
                             className="main-button col-lg-1 paginationButton"
@@ -97,7 +90,10 @@ const MostPopular = ({
                         </>
                       ) : (
                         <div className="main-button col-lg-1 paginationButton">
-                          <a>1</a>
+                          <a
+                           onClick={() =>
+                            setCurrentPageNumber(1)
+                          }>1</a>
                         </div>
                       )}
 
@@ -106,32 +102,49 @@ const MostPopular = ({
                           <>
                         
                             <div className="main-button col-lg-1 paginationButton">
-                              <a>{currentPageNumber}</a>
+                              <a  onClick={() =>
+                          setCurrentPageNumber(currentPageNumber)
+                        }>{currentPageNumber}</a>
                             </div>
 
                             <div className="main-button col-lg-1 paginationButton">
-                              <a>{currentPageNumber + 1}</a>
+                              <a
+                               onClick={() =>
+                                setCurrentPageNumber(currentPageNumber + 1)
+                              }>{currentPageNumber + 1}</a>
                             </div>
                           </>
                         ) : (
                           <>
                             <div className="main-button col-lg-1 paginationButton">
-                              <a>{totalPages - 3}</a>
+                              <a
+                               onClick={() =>
+                                setCurrentPageNumber(totalPages-3)
+                              }>{totalPages - 3}</a>
                             </div>
 
                             <div className="main-button col-lg-1 paginationButton">
-                              <a>{totalPages - 2}</a>
+                              <a
+                               onClick={() =>
+                                setCurrentPageNumber(totalPages - 2)
+                              }>{totalPages - 2}</a>
                             </div>
                           </>
                         )
                       ) : (
                         <>
                           <div className="main-button col-lg-1 paginationButton">
-                            <a>{currentPageNumber + 1}</a>
+                            <a
+                             onClick={() =>
+                              setCurrentPageNumber(currentPageNumber + 1)
+                            }>{currentPageNumber + 1}</a>
                           </div>
 
                           <div className="main-button col-lg-1 paginationButton">
-                            <a>{currentPageNumber + 2}</a>
+                            <a
+                             onClick={() =>
+                              setCurrentPageNumber(currentPageNumber +2)
+                            }>{currentPageNumber + 2}</a>
                           </div>
                         </>
                       )}
@@ -145,16 +158,25 @@ const MostPopular = ({
                             <a>...</a>
                           </div>
                           <div className="main-button col-lg-1 paginationButton">
-                            <a>{totalPages}</a>
+                            <a
+                             onClick={() =>
+                              setCurrentPageNumber(totalPages)
+                            }>{totalPages}</a>
                           </div>
                         </>
                       ) : (
                         <>
                           <div className="main-button col-lg-1 paginationButton">
-                            <a>{totalPages - 1}</a>
+                            <a
+                             onClick={() =>
+                              setCurrentPageNumber(totalPages - 1)
+                            }>{totalPages - 1}</a>
                           </div>
                           <div className="main-button col-lg-1 paginationButton">
-                            <a>{totalPages}</a>
+                            <a
+                             onClick={() =>
+                              setCurrentPageNumber(totalPages)
+                            }>{totalPages}</a>
                           </div>
                         </>
                       )}
@@ -166,7 +188,10 @@ const MostPopular = ({
                           className="main-button col-lg-1 paginationButton"
                           key={index}
                         >
-                          <a>{index + 1}</a>
+                          <a
+                           onClick={() =>
+                            setCurrentPageNumber(index+1)
+                          }>{index + 1}</a>
                         </div>
                       ))}
                     </>
