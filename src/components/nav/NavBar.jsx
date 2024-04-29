@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import logo from "../../assets/images/logo.png";
 import profileheader from "../../assets/images/profile-header.jpg";
-
+import { Link, useNavigate } from "react-router-dom";
 
 const NavBar = () => {
-  let curInput = "";
+
+  const navigate = useNavigate();
+
   const searchFunction = (event) => {
-    event.preventDefault(); 
-    curInput = event.target.searchKeyword.value;
-    if(curInput.trim().length>0){
-      console.log(curInput)
-      
-    }
-   
+    event.preventDefault();
+    const curInput = event.target.searchKeyword.value.trim();
+      if(curInput.length >0)
+        navigate("/gameStore?curInput="+curInput); 
+    
   };
 
   return (
@@ -42,12 +42,10 @@ const NavBar = () => {
               {/* ***** Menu Start ***** */}
               <ul className="nav">
                 <li>
-                  <a href="index.html" className="active">
-                    Home
-                  </a>
+                <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <a href="browse.html">Browse</a>
+                  <Link to="/gamestore">gamestore</Link>
                 </li>
                 <li>
                   <a href="details.html">Details</a>

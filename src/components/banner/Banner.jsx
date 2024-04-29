@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -11,7 +12,7 @@ const Banner = () => {
               <em>Browse</em> Our Popular Games Here
             </h4>
             <div className="main-button">
-              <a href="browse.html">Browse Now</a>
+              <Link to="/gamestore">Browse Now</Link>
             </div>
           </div>
         </div>

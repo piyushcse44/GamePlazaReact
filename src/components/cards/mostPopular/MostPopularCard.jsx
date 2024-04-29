@@ -1,11 +1,12 @@
 import React from "react";
+import './mostPopularCard.css'
 
 const MostPopularCard = ({key , game}) => {
   return (
     <div className="col-lg-3 col-sm-6">
       <div className="item">
         <img src={game.featureImage} alt="" />
-        <h4>
+        <h4 style={{ color: 'white' }}>
           {game.gameName}
           <br />
           <span>{game.companyName}</span>

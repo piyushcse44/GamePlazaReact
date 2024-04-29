@@ -30,7 +30,7 @@ paginationButtons.forEach(button => {
 
 
   return (
-    <div className="most-popular">
+    <div className="most-popular" id ="most-popular-start">
       <div className="row">
         <div className="col-lg-12">
           <div className="heading-section">

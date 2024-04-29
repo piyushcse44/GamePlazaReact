@@ -4,17 +4,38 @@ import MostPopular from "../../components/mostPopular/MostPopular.jsx";
 import Footer from "../../components/footer/Footer.jsx";
 import Banner from "../../components/banner/Banner.jsx";
 import { GetRequest } from "../../api/FetchRequest.js";
+import { useLocation } from 'react-router-dom';
 
 const GameStore = () => {
+  
   const [gameList, setGameList] = useState([]);
-  const [currentPageNumber,setCurrentPageNumber] = useState( parseInt(localStorage.getItem("currentPageNumber")) || 1)
+  const [currentPageNumber,setCurrentPageNumber] = useState(parseInt(localStorage.getItem("currentPageNumber")) || 1)
   const [pageSize,setPageSize] = useState(16)
   const [totalPages,setTotalPages] = useState(0)
-  const endPoint = "/api/game_plaza/game_list?pageSize="+pageSize+"&pageNumber="+currentPageNumber;
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const curInput = searchParams.get('curInput');
+  const [currentSearchedWord, setCurrentSearchedWord] = useState(curInput||'');
 
 
   useEffect(() => {
-    localStorage.setItem("currentPageNumber", parseInt(currentPageNumber));
+    const searchParams = new URLSearchParams(location.search);
+    const curInput = searchParams.get('curInput');
+    if (curInput) {
+      setCurrentSearchedWord(curInput);
+    }
+   
+  }, [location.search]);
+ 
+  
+  let endPoint = "/api/game_plaza/search/game_list?pageSize="+pageSize+"&pageNumber="+currentPageNumber
+  +"&searchedWord="+currentSearchedWord;
+
+
+
+
+  useEffect(() => {
+   // localStorage.setItem("currentPageNumber", parseInt(currentPageNumber));
     GetRequest((err, res) => { 
       if (err) {
         setError(err.response.data.message);
@@ -25,7 +46,7 @@ const GameStore = () => {
         return;
       }
     }, endPoint);
-  }, [currentPageNumber]);
+  }, [currentPageNumber,currentSearchedWord]);
 
   return (
     <div className="main-container">

@@ -7,8 +7,8 @@ const Footer = () => {
       <div className="row">
         <div className="col-lg-12">
           <p>
-            Copyright © 2036 <a href="#">Cyborg Gaming</a> Company. All rights reserved. <br />
-            Design: <a href="https://templatemo.com" target="_blank" rel="noopener noreferrer" title="free CSS templates">TemplateMo</a>
+            Copyright © 2036 <a href="#">GamePlaza </a> Company. All rights reserved. <br />
+            Design: <a href="#" target="_blank" rel="noopener noreferrer" title="Gaming plateform">Piyush kumar</a>
           </p>
         </div>
       </div>
