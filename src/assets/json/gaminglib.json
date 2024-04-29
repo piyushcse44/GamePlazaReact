@@ -1,0 +1,26 @@
+[
+    {
+      "gameId": 55,
+      "gameName": " I am Going in",
+      "companyName": " Innerloop Studios",
+      "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg",
+      "dateAdded": "1998-04-20",
+      "hoursPlayed": 0
+    },
+    {
+        "gameId": 56,
+        "gameName": " Pubgy",
+        "companyName": " Lois Studios",
+        "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg",
+        "dateAdded": "2024-05-20",
+        "hoursPlayed": 0
+      },
+      {
+        "gameId": 57,
+        "gameName": "Free fire",
+        "companyName": " Loise amrit",
+        "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg",
+        "dateAdded": "2024-04-20",
+        "hoursPlayed": 0
+      }
+  ]

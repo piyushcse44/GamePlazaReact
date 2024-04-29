@@ -1,0 +1,402 @@
+[
+  {
+    "gameId": 1,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 2,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 3,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 4,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 5,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 6,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 7,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 8,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 9,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 10,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 11,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 12,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 13,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 14,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 15,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 16,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 17,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 18,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 19,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 20,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 21,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 22,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 23,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 24,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 25,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 26,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 27,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 28,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 29,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 30,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 31,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 32,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 33,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 34,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 35,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 36,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 37,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 38,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 39,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 40,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 41,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 42,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 43,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 44,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 45,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 46,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 47,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  },
+  {
+    "gameId": 48,
+    "gameName": "Pubg",
+    "companyName": "Lakshya Studios",
+    "gameRating": 4.3,
+    "totalDownloads": null,
+    "featureImage": "http://localhost:8082/images/2024-04-20T15-15-29-348905100igi.jpg"
+  },
+  {
+    "gameId": 49,
+    "gameName": "I am Going in",
+    "companyName": "Innerloop Studios",
+    "gameRating": 3.7,
+    "totalDownloads": "32M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-45-46-026440900igi.jpg"
+  },
+  {
+    "gameId": 50,
+    "gameName": "FreeFire",
+    "companyName": "Unity studio",
+    "gameRating": 4.6,
+    "totalDownloads": "20M",
+    "featureImage": "http://localhost:8082/images/2024-04-20T14-46-53-952000200igi.jpg"
+  }
+]
