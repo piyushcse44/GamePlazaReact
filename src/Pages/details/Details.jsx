@@ -8,6 +8,7 @@ import { GetRequest } from "../../api/FetchRequest.js";
 import { useLocation } from 'react-router-dom';
 
 const Details = () => {
+  const [gameSpec,setGameSpec] = useState({})
   const searchParams = new URLSearchParams(location.search);
   const gameId = searchParams.get('gameId');
   const [currentGameId, setCurrentGameId] = useState(gameId||'');
@@ -21,8 +22,21 @@ const Details = () => {
    
   }, [location.search]);
 
-  let endPoint = "/api/game_plaza/search/game_list?pageSize="+pageSize+"&pageNumber="+currentPageNumber
-  +"&searchedWord="+currentSearchedWord;
+  let endPoint = "/api/game_plaza/game_spec/"+currentGameId;
+
+  useEffect(() => {
+  
+     GetRequest((err, res) => { 
+       if (err) {
+         setError(err.response.data);
+         return;
+       } else {
+          setGameSpec(res.data)
+         return;
+       }
+     }, endPoint);
+   }, [currentGameId]);
+ 
 
 
  
@@ -33,8 +47,8 @@ const Details = () => {
       <div className="row">
         <div className="col-lg-12">
           <div className="page-content">
-          <Feature />
-          <DetailComponent />
+          <Feature gameSpec ={gameSpec} />
+          <DetailComponent gameSpec={gameSpec}/>
           <Other />
           </div>
         </div>

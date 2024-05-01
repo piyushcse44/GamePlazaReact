@@ -2,7 +2,7 @@ import React from 'react'
 import featureLeft from "../../assets/images/feature-left.jpg";
 import featureRight from "../../assets/images/feature-right.jpg";
 
-const Feature = () => {
+const Feature = ({gameSpec}) => {
   return (
     <div className="row">
   <div className="col-lg-12">
@@ -10,7 +10,7 @@ const Feature = () => {
       <div className="row">
         <div className="col-lg-4">
           <img
-            src={featureLeft}
+            src={gameSpec?.additionalImage?.[0] ?? featureLeft}
             alt=""
             style={{ borderRadius: 23 }}
           />
@@ -18,7 +18,10 @@ const Feature = () => {
         <div className="col-lg-8">
           <div className="thumb">
             <img
-              src={featureRight}
+             
+                src={gameSpec?.additionalImage?.[1] ?? featureRight}
+              
+              
               alt=""
               style={{ borderRadius: 23 }}
             />
