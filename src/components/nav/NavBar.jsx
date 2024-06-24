@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../../assets/images/logo.png";
 import profileheader from "../../assets/images/profile-header.jpg";
 import { Link, useNavigate } from "react-router-dom";
+import { BiColor } from "react-icons/bi";
 
-const NavBar = () => {
 
+const NavBar = ({page}) => {
+
+
+
+console.log(page)
   const navigate = useNavigate();
 
   const searchFunction = (event) => {
@@ -22,9 +27,9 @@ const NavBar = () => {
           <div className="col-12">
             <nav className="main-nav">
               {/* ***** Logo Start ***** */}
-              <a href="index.html" className="logo">
+              <Link to="/" className="logo">
                 <img src={logo} alt="" />
-              </a>
+                </Link>
               {/* ***** Logo End ***** */}
               {/* ***** Search Start ***** */}
               <div className="search-input">
@@ -41,11 +46,15 @@ const NavBar = () => {
               {/* ***** Search End ***** */}
               {/* ***** Menu Start ***** */}
               <ul className="nav">
-                <li>
-                <Link to="/">Home</Link>
+                <li>               
+                <Link to="/"> 
+                <div style={{ color: page === 'home' ? '#e75e8d' : '#666' }}>Home</div>
+                </Link>
                 </li>
                 <li>
-                  <Link to="/gamestore">gamestore</Link>
+                  <Link to="/gamestore">
+                  <div style={{ color: page === 'gamestore' ? '#e75e8d' : '#666' }}>Gamestore</div>
+                    </Link>
                 </li>
                 <li>
                   <a href="details.html">Details</a>

@@ -25,7 +25,7 @@ const HomePage = () => {
 
   return (
     <div className="main-container">
-      <NavBar />
+      <NavBar  page = "home"/>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
